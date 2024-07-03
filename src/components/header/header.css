@@ -1,0 +1,21 @@
+.header-container{
+    background:var(--primary-opacity);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.logo{
+    background: var(--blue);
+  }
+  .logo img{
+    opacity: 0.99;
+  }
+  ul li{
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  ul li:hover{
+    background: var(--highlight);
+    cursor:pointer;
+  }

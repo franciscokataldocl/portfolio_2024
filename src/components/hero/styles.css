@@ -1,0 +1,28 @@
+.hero-container{
+    overflow:hidden;
+    position:relative;
+    width:100%;
+    height:calc(100vh - 110px);
+
+}
+.render-animation{
+max-width:1800px;
+width:100%;
+position:absolute;
+right:-20%;
+}
+
+.hero-intro{
+    position:absolute;
+    max-width:500px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left:10%;
+    z-index:1
+}
+.hero-intro h1{
+    font-size:150px;
+    font-weight: 800;
+    line-height: 130px;
+    margin-bottom:50px;
+}
