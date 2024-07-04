@@ -9,7 +9,7 @@ const Hero = () => {
    FULL STACK DEVELOPER
    </h1>
    {/* md:text-8xl sm:text-8xl font-extrabold leading-none mb-10 */}
-   <Link className='yellow-button text-white' href="/">Home</Link>
+   <Link className='custom-button yellow-button text-white' href="/">Sobre mi</Link>
    </div>
     <main className="render-animation absolute ">
       <Spline

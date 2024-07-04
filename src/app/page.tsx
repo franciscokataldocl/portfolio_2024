@@ -1,4 +1,5 @@
 
+import AboutSection from '@/components/aboutSection/AboutSection';
 import Hero from '@/components/hero/Hero';
 import Menu from '@/components/menu/Menu';
 import Header from '../components/header/Header';
@@ -10,6 +11,7 @@ const HomePage = () => {
 <Header/>
 <Menu/>
 <Hero/>
+<AboutSection/>
 </div>
   </>
     

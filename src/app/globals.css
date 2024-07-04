@@ -6,6 +6,7 @@
 :root {
   --primary:#FF4A45;
   --primary-opacity:#F46355;
+  --primary-dark:#ED4440;
   --blue:#21204F;
   --highlight:#FE9728;
 }
@@ -20,12 +21,11 @@ body{
   background: var(--primary);
   height:calc(100vh - 30px);
   width:100%;
-  border-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
-
-
-.yellow-button{
-  background:var(--highlight);
+.custom-button{
+  
   border-radius: 10px;
   padding:15px 40px;
   font-size: 16px;
@@ -33,12 +33,23 @@ body{
   text-transform: uppercase;
   border: white solid 3px;
   letter-spacing: 4px;
-  box-shadow: 0 0.5em var(--highlight);
+  
   transition: all 100ms ease-in-out;
   top:0;
   position:relative;
 }
+
+.yellow-button{
+  background:var(--highlight);
+  box-shadow: 0 0.5em var(--highlight);
+}
 .yellow-button:hover{
   box-shadow: 0 0.2em var(--highlight);
   top:3px;
+}
+
+.image-border{
+  border:white solid 5px;
+  border-radius: 10px;
+  box-shadow: 0 0.8em var(--primary-dark);
 }
